@@ -3,7 +3,7 @@ FeatherCSS is a CSS compiler like TailwindCSS. FeatherCSS aims to provide smalle
 
 ## Installing
 ```
-npm install blabla
+npm install https://github.com/benardayim/feathercss.git
 ```
 Then, run
 ```
