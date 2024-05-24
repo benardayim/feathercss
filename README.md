@@ -34,7 +34,7 @@ npx feathercss
 | fs-**em** | fs-2, fs-15 | |
 | gap-**em** | gap-2, gap-15 | |
 | transition-**em** | transition-1, transition-03 | |
-| **p/m****t/r/b/l/x/y**-**em** | pt-1, mx-25 | margin and padding from bootstrap |
+| **[p/m][t/r/b/l/x/y]**-**em** | pt-1, mx-25 | margin and padding from bootstrap |
 | **t/r/b/l**-**emp** | t-50, l-100p | top right bottom left properties |
 | **w/h**-**emp** | w-2, h-25p | width height properties |
 | none/block/inline/inline-block/flex/inline-flex | none, flex, block | changes display property |
