@@ -1,0 +1,62 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@for $i from 1 through 12 {
+    .col-#{$i} {
+        flex: $i 1 (100% * $i / 12);
+    }
+}
+
+@each $align in center, start, end {
+    .text-#{$align} {
+        text-align: $align;
+    }
+}
+
+@each $deco in dashed, dotted, double, line-through, none, overline, solid, underline, wavy {
+    .decoration-#{$deco} {
+        text-decoration: $deco;
+    }
+}
+
+@each $direction in column, row {
+    .direction-#{$direction} {
+        flex-direction: $direction;
+    }
+}
+
+@each $cursor in default, grab, pointer {
+    .cursor-#{$cursor} {
+        cursor: $cursor;
+    }
+}
+
+@each $weight in bold, light, normal {
+    .font-#{$weight} {
+        font-weight: $weight;
+    }
+}
+
+@each $overflow in hidden, visible, scroll {
+    .overflow-#{$overflow} {
+        overflow: $overflow;
+    }
+}
+
+.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.monospace {
+    font-family: 'Courier New', Courier, monospace
+}
+
+.serif {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.translate-center {
+    translate: -50% -50%;
+}

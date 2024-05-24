@@ -1,0 +1,15 @@
+{
+  "name": "feathercss-compiler",
+  "version": "1.0.0",
+  "description": "FeatherCSS Compiler",
+  "type": "module",
+  "main": "./bin.js",
+  "bin": {
+    "feathercss": "./bin.js"
+  },
+  "scripts": {
+    "test": "./bin.js"
+  },
+  "author": "benardayim",
+  "license": "ISC"
+}

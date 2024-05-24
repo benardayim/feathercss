@@ -1,0 +1,165 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-1 {
+  flex: 1 1 8.3333333333%;
+}
+
+.col-2 {
+  flex: 2 1 16.6666666667%;
+}
+
+.col-3 {
+  flex: 3 1 25%;
+}
+
+.col-4 {
+  flex: 4 1 33.3333333333%;
+}
+
+.col-5 {
+  flex: 5 1 41.6666666667%;
+}
+
+.col-6 {
+  flex: 6 1 50%;
+}
+
+.col-7 {
+  flex: 7 1 58.3333333333%;
+}
+
+.col-8 {
+  flex: 8 1 66.6666666667%;
+}
+
+.col-9 {
+  flex: 9 1 75%;
+}
+
+.col-10 {
+  flex: 10 1 83.3333333333%;
+}
+
+.col-11 {
+  flex: 11 1 91.6666666667%;
+}
+
+.col-12 {
+  flex: 12 1 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-start {
+  text-align: start;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.decoration-dashed {
+  -webkit-text-decoration: dashed;
+          text-decoration: dashed;
+}
+
+.decoration-dotted {
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+}
+
+.decoration-double {
+  -webkit-text-decoration: double;
+          text-decoration: double;
+}
+
+.decoration-line-through {
+  text-decoration: line-through;
+}
+
+.decoration-none {
+  text-decoration: none;
+}
+
+.decoration-overline {
+  text-decoration: overline;
+}
+
+.decoration-solid {
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+}
+
+.decoration-underline {
+  text-decoration: underline;
+}
+
+.decoration-wavy {
+  -webkit-text-decoration: wavy;
+          text-decoration: wavy;
+}
+
+.direction-column {
+  flex-direction: column;
+}
+
+.direction-row {
+  flex-direction: row;
+}
+
+.cursor-default {
+  cursor: default;
+}
+
+.cursor-grab {
+  cursor: grab;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-light {
+  font-weight: light;
+}
+
+.font-normal {
+  font-weight: normal;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-visible {
+  overflow: visible;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+}
+
+.sansserif {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.monospace {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.serif {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.translate-center {
+  translate: -50% -50%;
+}
